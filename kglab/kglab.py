@@ -1119,8 +1119,8 @@ PyVis network object, to be rendered
     ######################################################################
     ## SHACL validation
 
-    def validateee(self) -> str:
-        return "teeest"
+    def validateee(self) -> int:
+        return 55
 
     def validate (
         self,
